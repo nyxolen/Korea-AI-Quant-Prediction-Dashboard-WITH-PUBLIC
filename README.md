@@ -15,7 +15,7 @@ This project moves beyond simple stock price prediction by employing a **'Hybrid
 ### Key Goals
 * **Cost Efficiency**: Achieved **$0 server maintenance cost** by utilizing GitHub Actions & Streamlit Cloud.
 * **Dual-Model Engine**:
-    * **Short-term**: LightGBM model focused on supply/demand, market psychology, and technical indicators (7-day / 14-day prediction).
+    * **Short-term**: XGBOOST + RANDOM FOREST model focused on supply/demand, market psychology, and technical indicators (7-day / 14-day prediction).
     * **Long-term**: LSTM model focused on fundamentals, macroeconomics, and growth potential (1-year / 3-year prediction).
 * **User Experience**: An interactive dashboard allowing users to directly select variables and verify results.
 
@@ -29,7 +29,7 @@ This project follows an agile development process, evolving through the followin
 | :---: | :--- | :--- | :---: | :---: |
 | **1** | **Foundation** | • Architecture Design <br> • Data Collection (Crawler) <br> • Feature Engineering (Technical Indicators) | ![100%](https://geps.dev/progress/100) | ✅ Done <br> 5 Days |
 | **2** | **Automation** | • GitHub Actions (Cron) Setup <br> • Auto-Preprocessing Pipeline <br> • Database Connection | ![10%](https://geps.dev/progress/10) | 🔄 Active |
-| **3** | **Modeling** | • LightGBM Model (Short-term) <br> • LSTM Model (Long-term) <br> • Hyperparameter Tuning | ![40%](https://geps.dev/progress/40) | 🔄 Active |
+| **3** | **Modeling** | • XGBOOST + RANDOM FOREST Model (Short-term) <br> • LSTM Model (Long-term) <br> • Hyperparameter Tuning | ![40%](https://geps.dev/progress/40) | 🔄 Active |
 | **4** | **Service & UI** | • HTML/CSS Dashboard Development <br> • Mock Investment System (Supabase) <br> • Mobile Responsive Design | ![0%](https://geps.dev/progress/0) | ⏳ Pending |
 
 > **Status Guide**: ✅ Done / 🔄 Active (In Progress) / 🚧 Started / ⏳ Pending
